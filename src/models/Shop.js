@@ -15,8 +15,8 @@ const cookies = new Cookies();
 // Contentful Configuration
 const client = createClient({
   space: '0ck90443p53t',
-  environment: 'master', // defaults to 'master' if not set
-  accessToken: '207ac9b7c042fce9f803dd28ae69537f9fc1de713248f646417017feaa7ad401',
+  environment: 'client', // defaults to 'master' if not set
+  accessToken: '207ac9b7c042fce9f803dd28ae69537f9',
 });
 console.log(client);
 
